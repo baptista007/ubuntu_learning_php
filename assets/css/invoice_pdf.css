@@ -1,0 +1,63 @@
+/*
+ * Page: Invoice
+ * -------------
+ */
+.invoice {
+    position: relative;
+    background: #fff;
+    border: 1px solid #f4f4f4;
+    padding: 20px;
+    margin: 10px 25px;
+}
+.invoice-title {
+    margin-top: 0;
+}
+
+/* Page Header */
+.page-header {
+    margin: 10px 0 20px 0;
+    font-size: 16px;
+}
+.page-header > small {
+    color: #666;
+    display: block;
+    margin-top: 5px;
+}
+
+.company-logo {
+    max-height: 120px;
+    margin-bottom: 10px;
+}
+
+.custom-terms {
+    padding:20px 2px;
+    border-bottom:1px solid #DDDDDD;
+    font-size: 12px;
+}
+
+.footer{
+    padding:5px 1px;
+    text-align:center;
+}
+
+.invoicereference{
+    font-size: 22px;
+    font-weight: normal;
+    margin:10px 0;
+}
+
+.over{
+    text-transform: uppercase;
+    font-size: 10px;
+    font-weight: bold;
+
+}
+.under{
+    font-size: 16px;
+}
+
+.table-borderless tbody tr td,
+.table-borderless tbody tr th,
+.table-borderless thead tr th {
+    border: none;
+}
